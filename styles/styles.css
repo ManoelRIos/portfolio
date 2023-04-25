@@ -1,0 +1,29 @@
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #22212C;
+  border-bottom: 4px solid #00FFC2;
+}
+
+header nav.bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+header nav.bar ul li a{
+  color: #837E9F;
+  font-size: 3.2rem;
+  font-weight: bold;
+  transition: .3s;
+}
+
+header nav.bar ul li a:hover{
+  font-size: 4.2rem;
+  color: #00FFC2;
+}

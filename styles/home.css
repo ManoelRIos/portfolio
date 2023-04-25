@@ -1,0 +1,149 @@
+/* HEADER */
+header {
+  width: 100%;
+  height: 10%;
+  padding: 2rem;
+}
+
+header nav.bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+header nav.bar ul li a{
+  color: #837E9F;
+  font-size: 1.6rem;
+  font-weight: bold;
+  transition: .3s;
+}
+
+header nav.bar ul li a:hover{
+  font-size: 2.4rem;
+  color: #00FFC2;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #302F3D;
+  padding: 2rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;  
+  border-radius: .9rem;
+  color: #837E9F;
+}
+
+.card-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-perfil .img {
+  clip-path: circle();
+  background-color: #00FFC2;
+}
+
+.card-perfil .img img {
+  clip-path: circle();
+  padding: .1rem;
+  width: 12.8rem;
+  object-fit: cover;
+}
+
+.card-perfil .title{
+  font-size: 2.4rem;
+}
+
+.card-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.card-contacts .social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.card-contacts .social p {
+  font-size: 1.2rem;
+
+}
+
+/* CARD TECNOLOGIA */
+.title{
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+
+.card-tecnologias .card-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.card-tecnologias .card-body .card-item-tec{
+  background-color: #614DA6;
+  padding: .5rem;
+  border-radius: 2.1rem;
+  color: white;
+}
+
+.card-tecnologias .card-body .card-item-tec p{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-body ul{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: inside;
+}
+
+.card-body ul li p{
+  font-size: 1.4rem;
+}
+
+ .card-body ul li p{
+  font-size: 1.2rem;
+}
+
+/* MAIN CONTENT */
+.main-content .title-projects {
+  margin-bottom: 6rem;
+}
+
+.main-content .title-projects h2 {
+  font-size: 2.4rem;
+}
+
+.main-content .projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.projects .card-project {
+  width: 300px;
+  min-width: 300px;
+}
+
+.projects .card-project img{
+  width: 100%;
+}
+
