@@ -9,7 +9,6 @@ header nav.bar ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   gap: 4rem;
 }
 
@@ -80,6 +79,12 @@ header nav.bar ul li a:hover{
 .card-contacts .social p {
   font-size: 1.2rem;
 
+}
+
+.social a {
+  display: flex;
+  gap: 2rem;
+  color: #837E9F;
 }
 
 /* CARD TECNOLOGIA */
